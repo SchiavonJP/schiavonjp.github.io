@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Pirate Dev 🏴‍</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <meta property="og:type" content="profile"/>
+    <meta name="twitter:card" content="profile"/>
+    <meta property="og:url" content="https://schiavonjp.github.io"/>
+    <meta property="og:image" content="images/avatar.png"/>
+    <meta name="author" content="João Paulo Schiavon">
+    <meta property="og:title" content="Pirate Dev 🏴‍☠️"/>
+    <meta name="Description" content="Pirate Dev 🏴‍☠️"/>
+    <meta property="og:description" content="Pirate Dev 🏴‍☠️"/>
+    <meta name="twitter:site" content="@jones_schiavon"/>
+    <meta name="twitter:creator" content="@jones_schiavon"/>
+
+</head>
+<body>
+    
+    <div class="container-fluid text-center">
+        <nav id="row">
+        <img class="fotis" src="images/avatar.png" height="200" width="200">
+        <h2>João Paulo Schiavon </h2>
+    <h3>Pseudo Coder 🏴‍☠️ &#x1F37B </h3>
+    <h4>schiavonjp@yahoo.com.br</h4>
+    <h4><br>Level: <span id="age"></span> 
+        <br>Type:   Lifelong Learner 🦊
+        <br>Skills: Curiosity / Critical Thinking 🧐
+        <br>Location: Sao Paulo, Brazil 
+        <br>Species: ENFP-A <br></h4><br><br>
+    
+        <div class="row seven-cols">  
+        <div class="col-xs-2 col-md-1">
+            <a href="https://www.facebook.com/joaopaulo.schiavon.5" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-2 col-md-1">
+            <a href="https://www.linkedin.com/in/joao-paulo-schiavon/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-2 col-md-1">
+            <a href="https://github.com/SchiavonJP" target="_blank"><i class="fa fa-github-alt fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-2 col-md-1">
+            <a href="https://telegram.me/SchiavonJP" target="_blank"><i class="fa fa-telegram fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-2 col-md-1">
+            <a href="https://twitter.com/jones_schiavon" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-2 col-md-1">
+            <a href="https://open.spotify.com/user/12142763246" target="_blank"><i class="fa fa-spotify fa-2x" aria-hidden="true"></i></a>
+        </div>
+        <div class="col-xs-2 col-md-1">
+            <a href="https://www.instagram.com/schiavon.jp/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+        </div>
+    </div>
+        <br><br><br>
+    </nav>
+    </div>
+</body>
+<script>
+  
+    var myBirthDate = new Date("1996/04/08");
+    var today = new Date();
+    var years = today.getFullYear() - myBirthDate.getFullYear(); 
+    var month = today.getMonth() - myBirthDate.getMonth();
+    if (month < 0 ||
+        month === 0 && today.getDate()  < myBirthDate.getDate()){
+            years--;
+        }
+    document.getElementById("age").innerHTML = years;
+   
+</script>
+</html>
