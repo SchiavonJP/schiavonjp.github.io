@@ -1,2 +1,2 @@
 # João Paulo Schiavon Github Page
-**[joaopaulo.me](joaopaulo.me)**
+[joaopaulo.me](http://www.joaopaulo.me)
