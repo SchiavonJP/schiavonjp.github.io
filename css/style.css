@@ -61,13 +61,10 @@ h2 {
       font-size: 40px;
     }
 }
-@media (min-width: 992px) {
-  .seven-cols .col-md-1,
-  .seven-cols .col-sm-1,
-  .seven-cols .col-lg-1 {
-    width: 14.285714285714285714285714285714%;
-    *width: 14.285714285714285714285714285714%;
-    max-width: 14.285714285714285714285714285714% !important;
-flex:none !important;
-  }
+
+.fa-font:before {
+  font-family: roboto;
+  color: white;
+  font-size: 1.1em;
+  content: "k";   #any letter of your choice but for kaggle "k"
 }
